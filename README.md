@@ -254,6 +254,7 @@ BraintreeDropIn.show({
   vaultManager: true,
   cardDisabled: false,
   darkTheme: true,
+  payPal: false, // optional - to disable PayPal
 })
 .then(result => console.log(result))
 .catch((error) => {
@@ -286,6 +287,7 @@ BraintreeDropIn.show({
   vaultManager: true,
   cardDisabled: false,
   darkTheme: true,
+  payPal: false, // optional - to disable PayPal
 })
 .then(result => console.log(result))
 .catch((error) => {
